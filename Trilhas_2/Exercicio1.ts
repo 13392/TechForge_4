@@ -6,12 +6,12 @@ constructor(titular:string, saldo:number){
     this.saldo = saldo;
 }
 
- public depositar(saldo){
-saldo = this.saldo + saldo;
+ public depositar(saldo:number){
+this.saldo = this.saldo + saldo;
  }
 
- public retirar(saldo){
-    saldo = this.saldo - saldo;
+ public retirar(saldo:number){
+    this.saldo = this.saldo - saldo;
      }
 
      public mostrarSaldo(){
